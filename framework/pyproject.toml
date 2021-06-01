@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "framework"
+version = "0.1.0"
+description = ""
+authors = ["Oleksii Doroshenko <oleksii.doroshenko@globallogic.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+python-dotenv = "^0.17.1"
+PyYAML = "^5.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.9.2"
+flake8-bugbear = "^21.4.3"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
